@@ -16,4 +16,7 @@ export default defineNuxtConfig({
       supabasePublishableKey: process.env.SUPABASE_PUBLISHABLE_KEY,
     },
   },
+  nitro: {
+    preset: 'netlify',
+  },
 });
